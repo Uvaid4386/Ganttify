@@ -1,0 +1,19 @@
+.main1 {
+    background-color: #fff;
+    color: black;
+}
+
+.main1 h1 {
+    /* text-align: center; */
+    padding-top: 10px;
+    margin: 50px 20px;
+    font-weight: 500;
+}
+
+.main1 p {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(56, 55, 55);
+    margin: 15px 15px 35px 55px;
+    padding-bottom: 30px;
+}

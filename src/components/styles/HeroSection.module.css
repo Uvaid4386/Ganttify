@@ -1,0 +1,57 @@
+.left {
+    /* position: relative; */
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: rgb(40,36,36);
+    background: radial-gradient(circle, rgba(40,36,36,1) 20%, rgba(0,0,0,1) 100%);
+
+   
+}
+.hero {
+    position: absolute;
+    right: 55%;
+    max-width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.content {
+    /* max-width: 50%; */
+}
+
+.heroH1 {
+    /* padding-left: 5rem; */
+    padding-top: 6rem;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 1rem 0;
+}
+
+p {
+    color: #ccc;
+    /* padding-left: 5rem; */
+    margin-bottom: 1.5rem;
+    font-weight: 100;
+}
+
+.ctaButtons button {
+    /* margin-left: 5rem; */
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    font-size: 0.7rem;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.ctaButtons .ctaHowItWorks{
+    background-color: #242323;
+    color: white;
+    margin-left: 0.9rem;
+}

@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left{
+    display: flex;
+
+    align-items: center;
+
+}
+.logo{
+    padding: 0 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: black;
+}
+.navlinks a{
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: black;
+    margin: 0 1rem;
+}
+.authbuttons button{
+    padding: 0.4rem 0.5rem;
+    background-color: white;
+    color: black;
+    border: 1px black solid;
+    border-radius: 0.6rem;
+    margin-left: 1rem;
+    cursor: pointer;
+
+
+}
+.authbuttons .getStarted{
+    background-color: black;
+    color: white;
+}

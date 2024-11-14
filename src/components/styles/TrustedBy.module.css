@@ -1,0 +1,6 @@
+.trustedBy{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 3rem;
+}

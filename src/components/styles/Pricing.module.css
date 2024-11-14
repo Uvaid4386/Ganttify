@@ -1,0 +1,137 @@
+.pricingHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.pricingHeading h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.pricingHead .duration button{
+    padding: 0.8rem 1.8rem;
+    font-size: 0.8rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.pricingHead .duration .annual{
+    background-color: #f2f2f2;
+    color: black;
+    cursor: pointer;
+}
+.priceCards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    height: 80%;
+}
+.card1{
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 23%;
+    padding: 20px;
+    background: rgb(40,36,36);
+    background: radial-gradient(circle, rgba(40,36,36,1) 20%, rgba(0,0,0,1) 100%);
+}
+
+.card2{
+    border: 1px solid grey;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 23%;
+    padding: 20px;
+
+}
+.card2 button{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+.card3{
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 23%;
+    padding: 20px;
+    background: rgb(40,36,36);
+    background: radial-gradient(circle, rgba(40,36,36,1) 20%, rgba(0,0,0,1) 100%);
+
+}
+.card1 small, .card2 small, .card3 small {
+    color: grey;
+    padding-bottom: 20px;
+}
+.card1 h1, .card3 h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.card2 h1{
+    color: black;
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.card1 h1 small, .card2 h1 small, .card3 h1 small {
+    color: grey;
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.card1 h4, .card2 h4, .card3 h4 {
+    color: grey;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.card1 h3, .card3 h3{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+.card2 h3{
+    color: grey;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.card2 h2{ 
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.card3 h2{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card1 button, .card3 button{
+    padding: 8px 65px;
+    margin-left: 25px;
+    border-radius: 12px;
+    /* border: 1px solid grey; */
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgba(128, 128, 128, 0.224);
+} 
+.card2 button{
+    padding: 8px 65px;
+    margin-left: 25px;
+    border-radius: 12px;
+    border: 1px solid grey;
+    font-size: 15px;
+    font-weight: 500;
+}
